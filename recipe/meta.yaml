@@ -26,10 +26,12 @@ requirements:
 
   host:
     - r-base
+    - r-formula
     - r-teachingdemos
     - r-plotrix
   run:
     - r-base
+    - r-formula
     - r-teachingdemos
     - r-plotrix
 
