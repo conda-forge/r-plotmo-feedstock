@@ -1,4 +1,4 @@
-{% set version = '3.5.4' %}
+{% set version = '3.5.5' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotmo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotmo/plotmo_{{ version }}.tar.gz
-  sha256: a4465a160fa15c87e5aef2f44887bcd7edf72202fe5ef04079ea482bab95c321
+  sha256: ee0c779488dbd5844e50a8e9c753a1036a7e53ed18acea86bb41d869666cb771
 
 build:
   merge_build_host: True  # [win]
@@ -52,7 +52,7 @@ extra:
     - conda-forge/r
 
 # Package: plotmo
-# Version: 3.5.4
+# Version: 3.5.5
 # Title: Plot a Model's Residuals, Response, and Partial Dependence Plots
 # Author: Stephen Milborrow
 # Maintainer: Stephen Milborrow <milbo@sonic.net>
@@ -63,6 +63,6 @@ extra:
 # LazyData: yes
 # URL: http://www.milbo.users.sonic.net
 # NeedsCompilation: no
-# Packaged: 2019-04-06 01:58:52 UTC; milbo
+# Packaged: 2019-06-27 19:16:00 UTC; milbo
 # Repository: CRAN
-# Date/Publication: 2019-04-06 05:00:03 UTC
+# Date/Publication: 2019-06-27 20:20:03 UTC
