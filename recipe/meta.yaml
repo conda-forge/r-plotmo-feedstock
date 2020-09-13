@@ -1,4 +1,4 @@
-{% set version = "3.5.7" %}
+{% set version = "3.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotmo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotmo/plotmo_{{ version }}.tar.gz
-  sha256: aa366a49a63cabfd5d799a1524e23a4faed022f10ee60f8407d70ab70731b38c
+  sha256: c05afcc442f9542868beea5c3c40fb93b049f9b61c42725b2a1e2bc750c241e3
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,8 +42,7 @@ test:
 about:
   home: http://www.milbo.users.sonic.net
   license: GPL-3
-  summary: Plot model surfaces for a wide variety of models using partial dependence plots and other techniques. Also plot model residuals and other information on
-    the model.
+  summary: Plot model surfaces for a wide variety of models using partial dependence plots and other techniques. Also plot model residuals and other information on the model.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
