@@ -1,11 +1,11 @@
-About r-plotmo
-==============
+About r-plotmo-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotmo-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.milbo.users.sonic.net
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotmo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Plot model surfaces for a wide variety of models using partial dependence plots and other techniques. Also plot model residuals and other information on the model.
 
