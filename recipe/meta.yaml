@@ -1,4 +1,4 @@
-{% set version = "3.6.2" %}
+{% set version = "3.6.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotmo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotmo/plotmo_{{ version }}.tar.gz
-  sha256: cde33a8ec558b12d8e11d7d0531e73f6678a25ee589b79897d2fc425a3fd353c
+  sha256: 6917cd8185325f1f2998fb14def9e6a8d93f1b708cf70d7c443d3960c9189b7b
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
