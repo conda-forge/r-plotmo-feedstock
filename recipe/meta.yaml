@@ -1,4 +1,4 @@
-{% set version = "3.7.0" %}
+{% set version = "3.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotmo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotmo/plotmo_{{ version }}.tar.gz
-  sha256: 80e6621f01967582524a763f47671c66b77935d64e048437e2b2d32a15812032
+  sha256: c5ffd8b2a5e2156ab4182ae1f8501850eb60b72aba1cb5ca185e6661854e86cf
 
 build:
   number: 0
